@@ -39,7 +39,7 @@
 			zoom: 5,
 			center: center
 		  };
-		  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		  map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 		  for (i=0; i<routes_list.length; i++) {
 		  	routes_list[i].setMap(map);	
 		  }
@@ -74,7 +74,7 @@
 		}
 
 		function createRoutes(route) {
-			// Google's free map API is limited to 10 waypoints so need to break into batches
+			// Google"s free map API is limited to 10 waypoints so need to break into batches
 			route.push(route[0]);
 			var subset = 0;
 			while (subset < route.length) {
@@ -90,11 +90,11 @@
 			}
 		}
 
-        optimal_route = ['131 Albert Ave, East Lansing, MI 48823', '327 Abbot Rd, East Lansing, MI 48823', '224 Abbot Rd, East Lansing, MI 48823', '218 Abbot Rd, East Lansing, MI 48823', '210 Abbott Rd., East Lansing, MI 48823', '101 E Grand River Ave, East Lansing, MI 48823', '211 E Grand River Ave, MI 48823', '254 E Grand River Ave, East Lansing, MI 48823', '313 E Grand River Ave', '521 E Grand River Ave, East Lansing, MI 48823', '213 Ann St, East Lansing, MI 48823', '225 Ann St, East Lansing, MI 48823', '231 M. A. C. Ave, East Lansing, MI 48823', '300 Grove St, East Lansing, MI 48823']
+        optimal_route = ["131 Albert Ave, East Lansing, MI 48823", "327 Abbot Rd, East Lansing, MI 48823", "224 Abbot Rd, East Lansing, MI 48823", "218 Abbot Rd, East Lansing, MI 48823", "210 Abbott Rd., East Lansing, MI 48823", "101 E Grand River Ave, East Lansing, MI 48823", "211 E Grand River Ave, MI 48823", "254 E Grand River Ave, East Lansing, MI 48823", "313 E Grand River Ave", "521 E Grand River Ave, East Lansing, MI 48823", "213 Ann St, East Lansing, MI 48823", "225 Ann St, East Lansing, MI 48823", "231 M. A. C. Ave, East Lansing, MI 48823", "300 Grove St, East Lansing, MI 48823"]
 
 		createRoutes(optimal_route);
 
-		google.maps.event.addDomListener(window, 'load', initialize);
+		google.maps.event.addDomListener(window, "load", initialize);
 
     </script>
   </head>
