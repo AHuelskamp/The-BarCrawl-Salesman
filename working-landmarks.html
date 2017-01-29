@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="Randy Olson uses machine learning to find the optimal road trip across the U.S.">
-    <meta name="author" content="Randal S. Olson">
     
     <title>The optimal bar crawl around East Lansing according to machine learning</title>
     <style>
@@ -34,9 +32,9 @@
 		var map;
 
 		function initialize() {
-		  var center = new google.maps.LatLng(39, -96);
+		  var center = new google.maps.LatLng(42.73485, -84.482170);
 		  var mapOptions = {
-			zoom: 5,
+			zoom: 16,
 			center: center
 		  };
 		  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
