@@ -1,60 +1,60 @@
 [
     {
         "address": "224 Abbot Rd, East Lansing, MI 48823",
-        "bar": "ricks"
+        "name": "ricks"
     },
     {
         "address": "210 Abbott Rd., East Lansing, MI 48823",
-        "bar": "pts"
+        "name": "pts"
     },
     {
         "address": "225 Ann St, East Lansing, MI 48823",
         "approxAddress": "238 Albert Ave, East Lansing, MI 48823",
-        "bar": "elAz"
+        "name": "elAz"
     },
     {
         "address": "131 Albert Ave, East Lansing, MI 48823",
-        "bar": "harpers"
+        "name": "harpers"
     },
     {
         "address": "231 M. A. C. Ave, East Lansing, MI 48823",
-        "bar": "theRiv"
+        "name": "theRiv"
     },
     {
         "address": "521 E Grand River Ave, East Lansing, MI 48823",
-        "bar": "peanutBarrel"
+        "name": "peanutBarrel"
     },
     {
         "address": "313 E Grand River Ave",
-        "bar": "tinCan"
+        "name": "tinCan"
     },
     {
         "address": "254 W Grand River Ave, East Lansing, MI 48823",
-        "bar": "crunchys"
+        "name": "crunchys"
     },
     {
         "address": "327 Abbot Rd, East Lansing, MI 48823",
-        "bar": "dublin"
+        "name": "dublin"
     },
     {
         "address": "211 E Grand River Ave, MI 48823",
-        "bar": "louHas"
+        "name": "louHas"
     },
     {
         "address": "300 Grove St, East Lansing, MI 48823",
-        "bar": "hopCat"
+        "name": "hopCat"
     },
     {
         "address": "213 Ann St, East Lansing, MI 48823",
         "approxAddress": "208 Albert Ave, East Lansing, MI 48823",
-        "bar": "fieldHouse"
+        "name": "fieldHouse"
     },
     {
         "address": "101 E Grand River Ave, East Lansing, MI 48823",
-        "bar": "landshark"
+        "name": "landshark"
     },
     {
         "address": "218 Abbot Rd, East Lansing, MI 48823",
-        "bar": "beggars"
+        "name": "beggars"
     }
 ]
